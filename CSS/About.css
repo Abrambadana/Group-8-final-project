@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.main {
+    height: 700px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../Images/Books.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav {
+  height: 50px;
+  text-align: right;
+}
+
+ul li {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color:#fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 1s ease-in-out;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a {
+    background-color: white;
+    color: #000;
+    
+}
+.container {
+    text-align: center;
+   padding: 13px;
+   padding-top: 10px;
+    margin-left: 18%;
+    margin-top: 95px;
+    height: 425px;
+    width: 1000px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.452);
+    background-image: linear-gradient(45deg,rgba(255, 166, 0, 0.623),rgba(255, 4, 4, 0.63));
+    border-radius: 5%;
+  
+}
+.container p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container h1 {
+    line-height: 70px;
+    color:rgb(201, 196, 196);
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+img {
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.footer {
+    height: 81px;
+    background-image: linear-gradient(45deg,orange,rgb(255, 4, 4));
+    text-align: center;
+}
+.footer p {
+    padding-top: 20px;
+    font-size: 20px;
+}
+.footer a {
+    text-decoration: none;
+    color: black;
+    transition: 1s ease-in-out;
+}
+.footer a:hover {
+color: white;
+
+}
