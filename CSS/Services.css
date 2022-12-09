@@ -50,10 +50,42 @@ ul li.active a {
     max-width: 1200px;
     margin: auto;
 }
-h1 {
+.service {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 60px;
     padding-top: 10%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    font-weight: lighter;
     color: white;
+    letter-spacing: 2mm;
+}
+.parent {
+    width: 60%;
+    margin-top: 100px;
+    display: inline-flex;
+    margin-left: 20%;
+    margin-right: auto;
+}
+.child {
+    height: 300px;
+    width: 33.3%;
+    border: solid 1px blue;
+    text-align: center;
+    padding: 20px;
+   background-image: linear-gradient(pink, purple);
+    border-radius: 10%;
+    color: blue, bisque;
+}
+.child h1 {    
+    margin-left: 40%;
+    border: blue solid 1px;
+    height: 40px;
+    width: 50px;
+    border-radius:50%;
+}
+.child:nth-child(1) {
+    margin-right: 5px;
+}
+.child:nth-child(2) {
+    margin-right: 5px;
 }

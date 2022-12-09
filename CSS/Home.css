@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    text-decoration: none;
+}
+:root{
+    --green:#27ae60;
+    --dark-color:#219150;
+    --darker:#FA8072;
+    --black:#444;
+    --light-color:#666;
+    --blue: #005A9C;
+    --border:.1rem solid rgba(0,0,0,.1);
+    --border-hover:.1rem solid var(--black);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+    --brown: #A24857;
+    --dark-brown: #6a4a3a;
+    --light:#E6B7AA;
+}
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.5),#897b1556),url(../images/1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+ }
+ #side{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-decoration: none;
+    color:#ffffff;
+ }
+ .banner-text{
+    text-align: center;
+    color: #fff;
+    padding-top: 180px;
+ }
+ .banner-text h1{
+    font-size: 130px;
+    font-family: 'Kaushan Script', cursive;
+ }
+ .banner-text p{
+    font-size: 20px;
+    font-style: italic;
+
+ }
+.banner-btn{
+    margin: 70px auto 0;
+}
+.banner-btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: #fff;
+    border: .5px solid #fff;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+}    
+.banner-btn a span{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: -1;
+    transition: 0.5s;
+} 
+.banner-btn a:hover span{
+    width: 100%;
+}
+.banner-btn a:hover{
+    color: #000;
+}
+#sideNav{
+    background-image: linear-gradient(rgb(119, 45, 45) , rgb(146, 123, 92));
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: 250px;
+    top: 0;
+    
+    z-index: 2;
+    transition: 0.5s;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+#menuBtn{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 30px;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+#menuBtn i{
+    font-size: 30px;
+    color: white;
+}
+.btn{
+    margin-top: 1rem;
+    display:inline-block;
+    padding:.9rem 3rem;
+    color: #fff;
+    border: .5px solid #fff;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+}
+
+.btn:hover{
+    background: #000;
+}
+.heading span{
+    font-size: 3rem;
+    padding:.5rem 2rem;
+    color: white;
+    background: transparent;
+}
+.book .book-slider .box{
+    margin:3rem 0;
+    position: relative;
+    overflow: hidden;
+    border:var(--border);
+}
+
+.book .book-slider .box:hover{
+    border:var(--border-hover);
+}
+
+.book .book-slider .box .image{
+    padding:1rem;
+}
+
+.book .book-slider .box:hover .image{
+    transform: scale(1.1)
+}
+
+.book .book-slider .box .image img{
+    height: 15rem;
+}
+
+
+.book .book-slider .box .content{
+    padding:1.5rem;
+}
+
+.book .book-slider .box .content h3{
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+    border:var(--border-hover);
+    height:4rem;
+    width:4rem;
+    color:var(--black);
+    background: #fff;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after{
+    font-size: 2rem;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover{
+    background: var(--black);
+    color:#fff;
+}
+
